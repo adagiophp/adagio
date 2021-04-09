@@ -1,0 +1,17 @@
+grumphp:
+    tasks: 
+        phpcsfixer:
+            allow_risky: ~
+            cache_file: ~
+            config: ~
+            rules: ['@Symfony']
+            using_cache: ~
+            config_contains_finder: true
+            verbose: true
+            diff: false
+            triggered_by: ['php']
+        phpstan:
+            level: 8
+        phpunitbridge:
+            always_execute: true
+

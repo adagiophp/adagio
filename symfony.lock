@@ -1,6 +1,36 @@
 {
+    "amphp/amp": {
+        "version": "v2.5.2"
+    },
+    "amphp/byte-stream": {
+        "version": "v1.8.1"
+    },
+    "amphp/parallel": {
+        "version": "v1.4.0"
+    },
+    "amphp/parallel-functions": {
+        "version": "v1.0.0"
+    },
+    "amphp/parser": {
+        "version": "v1.0.0"
+    },
+    "amphp/process": {
+        "version": "v1.1.1"
+    },
+    "amphp/serialization": {
+        "version": "v1.0.0"
+    },
+    "amphp/sync": {
+        "version": "v1.4.0"
+    },
     "composer/package-versions-deprecated": {
         "version": "1.11.99.1"
+    },
+    "composer/semver": {
+        "version": "3.2.4"
+    },
+    "composer/xdebug-handler": {
+        "version": "1.4.6"
     },
     "doctrine/annotations": {
         "version": "1.0",
@@ -85,6 +115,18 @@
     "egulias/email-validator": {
         "version": "3.1.1"
     },
+    "friendsofphp/php-cs-fixer": {
+        "version": "2.17",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "2.17",
+            "ref": "f0d4b4ddb4e2bb73b227e3987b6ecc53cd8be431"
+        },
+        "files": [
+            ".php_cs.dist"
+        ]
+    },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.3"
     },
@@ -103,6 +145,9 @@
     "nikic/php-parser": {
         "version": "v4.10.4"
     },
+    "php-cs-fixer/diff": {
+        "version": "v1.3.1"
+    },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
     },
@@ -111,6 +156,12 @@
     },
     "phpdocumentor/type-resolver": {
         "version": "1.4.0"
+    },
+    "phpro/grumphp": {
+        "version": "v1.3.1"
+    },
+    "phpstan/phpstan": {
+        "version": "0.12.83"
     },
     "psr/cache": {
         "version": "2.0.0"
@@ -356,6 +407,9 @@
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.22.1"
+    },
+    "symfony/polyfill-php70": {
+        "version": "v1.20.0"
     },
     "symfony/polyfill-php73": {
         "version": "v1.22.1"
