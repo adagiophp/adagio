@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  adagio:
+    image: adagio
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/app
+    ports:
+      - 8000:8000
+    environment:
+      - DATABASE_URL=postgresql://adagio:adagio@database:5432/adagio?serverVersion=13&charset=utf8
+  database:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=adagio
+      - POSTGRES_DATABASE=adagio
+      - POSTGRES_PASSWORD=adagio
